@@ -78,6 +78,48 @@ for k in range(2, 7):
 scores = pd.DataFrame(score_rows)
 scores.to_csv(RESULTS_DIR / "silhouette_scores.csv", index=False)
 
+# 4.1 Figure 3: Compare silhouette scores of both algorithms
+
+score_plot = scores.pivot(
+    index="K",
+    columns="Algorithm",
+    values="Silhouette_Score"
+)
+
+plt.figure(figsize=(9, 5))
+
+plt.plot(
+    score_plot.index,
+    score_plot["K-Means"],
+    marker="o",
+    linewidth=2,
+    label="K-Means"
+)
+
+plt.plot(
+    score_plot.index,
+    score_plot["Hierarchical_Ward"],
+    marker="s",
+    linewidth=2,
+    label="Hierarchical (Ward)"
+)
+
+plt.xticks(range(2, 7))
+plt.xlabel("Number of Clusters (K)")
+plt.ylabel("Silhouette Score")
+plt.title("Silhouette Score Comparison of Clustering Algorithms")
+plt.legend()
+plt.grid(True, linestyle="--", alpha=0.5)
+plt.tight_layout()
+
+plt.savefig(
+    RESULTS_DIR / "silhouette_score_comparison.png",
+    dpi=300,
+    bbox_inches="tight"
+)
+
+plt.close()
+
 # 5. Select K-means K with the highest silhouette score.
 kmeans_scores = scores[scores["Algorithm"] == "K-Means"]
 best_k = int(kmeans_scores.loc[kmeans_scores["Silhouette_Score"].idxmax(), "K"])
@@ -96,6 +138,14 @@ output.to_csv(RESULTS_DIR / "cluster_assignments.csv", index=False)
 profile_data = output.groupby("KMeans_Cluster")[FEATURES].mean().round(4)
 profile_data["Number_of_States_UTs"] = output.groupby("KMeans_Cluster").size()
 profile_data.to_csv(RESULTS_DIR / "cluster_profiles.csv")
+# Display all six feature averages for the report
+print("\nCLUSTER PROFILES:")
+print("\nCLUSTER PROFILES (ALL SIX FEATURES):")
+print(profile_data.round(2).to_string())
+pd.set_option('display.max_columns', None)
+pd.set_option('display.width', 200)
+print("\nCLUSTER PROFILES (ALL SIX FEATURES):")
+print(profile_data.round(4).to_string())
 
 # 8. PCA: reduce six standardised features to two components for visualisation.
 pca = PCA(n_components=2)
