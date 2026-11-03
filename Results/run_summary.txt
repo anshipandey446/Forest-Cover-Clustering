@@ -1,0 +1,18 @@
+Observations: 36
+Features: 6
+Selected K for K-means (highest tested silhouette): 3
+K-means silhouette score: 0.4570
+Hierarchical silhouette score at K=3: 0.4611
+
+K-means cluster sizes:
+KMeans_Cluster
+1     8
+2    27
+3     1
+
+Mean feature values by K-means cluster:
+                VDF_2021_pct_GA  MDF_2021_pct_GA  OF_2021_pct_GA  VDF_change_pct_GA  MDF_change_pct_GA  OF_change_pct_GA  Number_of_States_UTs
+KMeans_Cluster                                                                                                                                
+1                        6.2662          34.3486         32.9055             0.0603            -0.3945           -0.1789                     8
+2                        3.3620           9.8808         10.2595             0.0040            -0.0344            0.1473                    27
+3                       68.8326           8.2798          4.6430             0.0000            -0.0121            0.0242                     1
