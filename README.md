@@ -131,6 +131,14 @@ A negative value indicates a decline in combined dense forest area.
 
 This descriptive calculation is separate from the machine-learning clustering process.
 
+### 5.9 Cluster Stability Analysis
+
+K-means cluster stability is evaluated by repeating the selected clustering configuration with different random seeds.
+
+The Adjusted Rand Index (ARI) is used to compare the resulting cluster assignments. The results are saved in:
+
+`Results/stability_results.csv`
+
 ## 6. Experimental Results
 
 The analysis uses 36 State/UT observations and six input features.
