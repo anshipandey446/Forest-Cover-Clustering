@@ -1,0 +1,13 @@
+Real K-means (K=3) silhouette: 0.4570
+Null mean / 95th percentile: 0.2457 / 0.3436
+Permutation p-value: 0.0199
+Rule-based baseline silhouette: 0.0539
+ARI between rule and K-means: 0.0386
+
+Bootstrap ARI (100 resamples): mean 0.6612, sd 0.1695
+Without singleton outlier(s) ['Andaman and Nicobar Islands']: K=2 silhouette 0.4429
+Without singleton outlier(s) ['Andaman and Nicobar Islands']: K=3 silhouette 0.4008
+
+Units with total cover >= 33%: 17 of 36
+Units with a negative VDF+MDF change (percentage-point basis): 25
+
