@@ -317,6 +317,8 @@ K-means and hierarchical clustering were compared using the Silhouette Score. Th
 A separate dense-forest change analysis identified States/UTs experiencing reductions in combined Very Dense Forest and Moderately Dense Forest area.
 
 The project provides an exploratory, data-driven approach to comparing forest-cover composition and change across Indian States and Union Territories.
+## AI use
+AI tools were used to support conceptual understanding, report drafting, language editing and debugging, and to help design the baseline and stability analysis. I reviewed, ran and take responsibility for the code, results and report.
 
 ## 14. References
 
