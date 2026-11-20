@@ -1,0 +1,5 @@
+Method,Silhouette,Davies_Bouldin
+K-means (K=3),0.4569770263566863,0.9298607197019623
+"Rule on total cover (<15, 15-33, >=33 %)",0.05385822319217576,1.7547973245001982
+"Permutation null, mean of 200",0.24568450421701596,
+"Permutation null, 95th percentile",0.3436322135492839,
