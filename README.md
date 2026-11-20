@@ -36,6 +36,7 @@ The main objectives are:
 5. To evaluate clustering solutions using the Silhouette Score.
 6. To use Principal Component Analysis (PCA) for two-dimensional visualisation.
 7. To identify States/UTs showing a decline in combined Very Dense Forest and Moderately Dense Forest.
+8. SDG alignment: SDG 15 (Life on Land) and SDG 13 (Climate Action).
 
 ## 4. Dataset Description
 
