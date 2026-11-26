@@ -1,0 +1,5 @@
+Feature_set,n_features,Silhouette_K3,Best_K_by_silhouette,Best_silhouette,ARI_vs_reference_K3,Cluster_sizes_K3
+All six features (reference),6,0.457,3,0.457,1.0,27/8/1
+Levels only (3 shares in 2021),3,0.5613,3,0.5613,0.6859,26/9/1
+Changes only (3 changes 2019-2021),3,0.644,4,0.6628,0.396,29/4/3
+"Drop open forest (VDF, MDF levels + changes)",4,0.4917,5,0.5489,0.7863,25/10/1

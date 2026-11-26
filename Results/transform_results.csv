@@ -1,0 +1,4 @@
+Version,Silhouette_K3,Best_K_by_silhouette,Best_silhouette,ARI_vs_reference_K3,Cluster_sizes_K3,Singleton_state
+Original (reference),0.457,3,0.457,1.0,27/8/1,Andaman and Nicobar Islands
+log1p on 2021 shares,0.3018,5,0.3602,0.2191,22/9/5,
+"Rank (quantile-normal) transform, all six",0.1873,2,0.3902,0.2154,19/12/5,

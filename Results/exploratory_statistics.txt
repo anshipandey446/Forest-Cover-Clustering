@@ -1,0 +1,28 @@
+EXPLORATORY STATISTICS
+Observations: 36
+States: 28, UTs: 8
+
+Descriptive statistics (mean, std, min, median, max):
+                     mean     std    min  median     max
+VDF_2021_pct_GA     5.826  12.005  0.000   2.630  68.833
+MDF_2021_pct_GA    15.274  13.590  0.305  12.003  53.633
+OF_2021_pct_GA     15.136  13.029  1.046  10.249  56.677
+VDF_change_pct_GA   0.016   0.087 -0.227   0.000   0.317
+MDF_change_pct_GA  -0.114   0.223 -0.708  -0.015   0.296
+OF_change_pct_GA    0.071   0.335 -0.899   0.038   1.386
+
+Highest VDF 2021 share: Andaman and Nicobar Islands (68.833%)
+Highest MDF 2021 share: Lakshadweep (53.633%)
+Highest OF 2021 share: Mizoram (56.677%)
+
+Corr MDF2021-OF2021: 0.69
+Corr OF2021-MDF change: -0.56
+Corr MDF2021-MDF change: -0.45
+
+Median 2021 shares, States vs UTs:
+       VDF_2021_pct_GA  MDF_2021_pct_GA  OF_2021_pct_GA
+State             3.05            12.45           11.34
+UT                0.34            10.07            8.09
+
+Units with negative VDF+MDF change (percentage-point basis): 25 of 36
+(The km2-based count and the ten largest declines come from dense_forest_analysis.py.)

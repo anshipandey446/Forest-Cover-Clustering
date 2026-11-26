@@ -1,0 +1,20 @@
+DENSE FOREST CHANGE ANALYSIS
+Total observations: 36
+States/UTs with dense forest decline: 25
+Total VDF change: 501.00 sq. km.
+Total MDF change: -1582.74 sq. km.
+Total OF change: 2621.14 sq. km.
+Combined VDF + MDF change: -1081.74 sq. km.
+
+TEN LARGEST DENSE FOREST DECLINES:
+         State/UT  VDF_change_sq_km  MDF_change_sq_km  Dense_Forest_Change_sq_km
+Arunachal Pradesh             -37.0            -381.0                     -418.0
+           Odisha             243.0            -557.0                     -314.0
+          Manipur               0.0            -158.0                     -158.0
+   Madhya Pradesh             -11.0            -132.0                     -143.0
+Jammu and Kashmir            -124.0              27.0                      -97.0
+          Mizoram               0.0             -86.0                      -86.0
+         Nagaland              -1.0             -85.0                      -86.0
+            Assam             222.0            -288.0                      -66.0
+          Gujarat               0.0             -60.0                      -60.0
+    Uttar Pradesh              10.0             -51.0                      -41.0
